@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="#721900FF"
+    android:padding="30dp">
+
+
+    <TextView
+        android:id="@+id/idDistrict"
+        android:layout_width="68dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:textColor="#FFFBFB"
+        android:textStyle="bold"
+        android:text="District" />
+
+    <TextView
+        android:id="@+id/idHotelName"
+        android:layout_width="163dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:textColor="#FFFBFB"
+        android:textStyle="bold"
+        android:text="Name" />
+
+    <TextView
+        android:id="@+id/idRatingHotel"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:textColor="#FFFBFB"
+        android:textStyle="bold"
+        android:text="Rating" />
+
+    <TextView
+        android:id="@+id/idHotelPrice"
+        android:layout_width="54dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:textColor="#FFFBFB"
+        android:textStyle="bold"
+        android:text="Price" />
+
+</LinearLayout>

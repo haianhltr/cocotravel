@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/flight_title"
+        android:layout_width="261dp"
+        android:layout_height="37dp"
+        android:layout_marginBottom="641dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginRight="120dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="68dp"
+        android:text="TextView"
+        android:fontFamily="serif"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.026"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="663dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginLeft="313dp"
+        android:layout_marginRight="41dp"
+        android:layout_marginStart="313dp"
+        android:layout_marginTop="49dp"
+        android:text="Total Price From"
+        android:fontFamily="serif"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/flight_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="642dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginLeft="57dp"
+        android:layout_marginRight="41dp"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="2dp"
+        android:text="TextView"
+        android:fontFamily="serif"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/flight_starting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="591dp"
+        android:layout_marginEnd="309dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="309dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="31dp"
+        android:text="TextView"
+        android:fontFamily="serif"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/flight_title" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="570dp"
+        android:layout_marginEnd="329dp"
+        android:layout_marginLeft="67dp"
+        android:layout_marginRight="329dp"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:srcCompat="@android:drawable/arrow_down_float" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="526dp"
+        android:layout_marginEnd="308dp"
+        android:layout_marginLeft="46dp"
+        android:layout_marginRight="308dp"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="24dp"
+        android:text="Saigon"
+        android:fontFamily="serif"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <CheckBox
+        android:id="@+id/carryon"
+        android:layout_width="176dp"
+        android:layout_height="53dp"
+        android:layout_marginBottom="352dp"
+        android:layout_marginEnd="193dp"
+        android:layout_marginLeft="42dp"
+        android:layout_marginRight="193dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="121dp"
+        android:text="Overhead Bin Access"
+        android:fontFamily="serif"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <Button
+        android:id="@+id/datebutton"
+        android:layout_width="347dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="44dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginLeft="37dp"
+        android:layout_marginRight="27dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="37dp"
+        android:text="Button"
+        android:fontFamily="serif"
+        android:textColor="#FFFBFB"
+
+        app:layout_constraintBottom_toTopOf="@+id/carryon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <Button
+        android:id="@+id/btnBookFlight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="248dp"
+        android:layout_marginEnd="150dp"
+        android:layout_marginLeft="168dp"
+        android:layout_marginRight="150dp"
+        android:layout_marginStart="168dp"
+        android:layout_marginTop="56dp"
+        android:text="Book now"
+        android:fontFamily="serif"
+        android:textColor="#FFFBFB"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/carryon" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

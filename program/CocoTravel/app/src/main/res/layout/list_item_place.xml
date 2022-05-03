@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="368dp"
+        android:layout_height="238dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtNamePlace"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/txtRankingPlace"
+        android:layout_width="80dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="44dp"
+        android:fontFamily="serif"
+        android:text="Ranking:"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtShortDescription"
+        android:layout_width="350dp"
+        android:layout_height="223dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="25dp"
+        android:fontFamily="serif"
+        android:text="About 60 kilometers from Ho Chi Minh City, the Cu Chi Tunnels are a must-see half-day trip and one of the top tours for visitors to the city. This vast 250-kilometer-plus network of tunnels served as the base for the Viet Cong's military operations during the Vietnam War. Soldiers used the excruciatingly cramped tunnels as hiding places, hospitals, communication bases, supply routes, and even living quarters."
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+    <TextView
+        android:id="@+id/txtType"
+        android:layout_width="80dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="serif"
+        android:text="Type:"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtRankingPlace" />
+
+    <TextView
+        android:id="@+id/txtBusSupport"
+        android:layout_width="90dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="27dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="serif"
+        android:text="Bus route:"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtType" />
+
+    <TextView
+        android:id="@+id/txtNamePlace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="187dp"
+        android:layout_marginLeft="165dp"
+        android:layout_marginRight="187dp"
+        android:layout_marginStart="165dp"
+        android:layout_marginTop="176dp"
+        android:text="Name"
+        android:fontFamily="serif"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtRankingShow"
+        android:layout_width="110dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="44dp"
+        android:fontFamily="serif"
+        android:text="TextView"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/txtRankingPlace"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtTypeShow"
+        android:layout_width="190dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="serif"
+        android:text="TextView"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/txtType"
+        app:layout_constraintTop_toBottomOf="@+id/txtRankingShow" />
+
+    <TextView
+        android:id="@+id/txtBusShow"
+        android:layout_width="110dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="serif"
+        android:text="TextView"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/txtBusSupport"
+        app:layout_constraintTop_toBottomOf="@+id/txtTypeShow" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

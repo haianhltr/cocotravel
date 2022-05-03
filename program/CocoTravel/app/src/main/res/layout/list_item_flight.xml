@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#721900FF"
+    android:orientation="horizontal"
+    android:padding="30dp">
+
+
+    <TextView
+        android:id="@+id/flight_title"
+        android:layout_width="167dp"
+        android:layout_height="wrap_content"
+
+        android:text="Flight title"
+        android:fontFamily="serif"
+        android:textColor="#FFFBFB"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/flight_duration"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="Flight duration"
+        android:textColor="#FFFBFB"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/flight_transit"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="Transit"
+        android:textColor="#FFFBFB"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/flight_price"
+        android:layout_width="54dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="Price"
+        android:textColor="#FFFBFB"
+        android:textStyle="bold" />
+
+</LinearLayout>

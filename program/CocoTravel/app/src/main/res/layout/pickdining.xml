@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/street">
+
+    <Button
+        android:id="@+id/btnGetDrinks"
+        android:layout_width="336dp"
+        android:layout_height="128dp"
+        android:layout_marginLeft="34dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="47dp"
+
+        android:background="#45FF0000"
+        app:backgroundTint="#5EFFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnGetRestau" />
+
+    <Button
+        android:id="@+id/btnGetRestau"
+        android:layout_width="336dp"
+        android:layout_height="128dp"
+        android:layout_marginLeft="33dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="40dp"
+        android:background="#45FF0000"
+        app:backgroundTint="#5EFFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnTopVnFood" />
+
+    <Button
+        android:id="@+id/btnTopVnFood"
+        android:layout_width="336dp"
+        android:layout_height="128dp"
+        android:layout_marginLeft="39dp"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="38dp"
+        android:autoText="false"
+        android:background="#45734949"
+        app:backgroundTint="#5EFFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnGetCountryFood"
+        android:layout_width="336dp"
+        android:layout_height="128dp"
+        android:layout_marginLeft="32dp"
+        android:fontFamily="serif"
+        android:text="Or, any country food"
+        android:textAllCaps="false"
+        android:textColor="#FFFBFB"
+
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="49dp"
+        android:background="#45FF0000"
+        app:backgroundTint="#5EFFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnGetDrinks" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+
+        android:text="Top Vietnamese Food"
+        android:fontFamily="serif"
+        android:textColor="#FFFBFB"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/btnTopVnFood"
+        app:layout_constraintEnd_toEndOf="@+id/btnTopVnFood"
+        app:layout_constraintTop_toTopOf="@+id/btnTopVnFood"
+        app:layout_constraintVertical_bias="0.505" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="76dp"
+        android:layout_marginRight="76dp"
+
+        android:fontFamily="serif"
+        android:text="Restaurant"
+        android:textColor="#FFFBFB"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/btnGetRestau"
+        app:layout_constraintEnd_toEndOf="@+id/btnGetRestau"
+        app:layout_constraintTop_toTopOf="@+id/btnGetRestau"
+        app:layout_constraintVertical_bias="0.528" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="112dp"
+        android:layout_marginRight="112dp"
+        android:fontFamily="serif"
+        android:text="Drinks"
+        android:textColor="#FFFBFB"
+
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/btnGetDrinks"
+        app:layout_constraintEnd_toEndOf="@+id/btnGetDrinks"
+        app:layout_constraintTop_toTopOf="@+id/btnGetDrinks"
+        app:layout_constraintVertical_bias="0.494" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

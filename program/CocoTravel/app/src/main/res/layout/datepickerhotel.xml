@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hotel">
+
+    <Button
+        android:id="@+id/btnConfirmHotel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="156dp"
+        android:layout_marginStart="156dp"
+        android:fontFamily="serif"
+        android:text="Confirm"
+        android:textColor="#FFFBFB"
+        app:backgroundTint="#E64A19"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnShowAllHotel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="68dp"
+        android:layout_marginStart="68dp"
+        android:fontFamily="serif"
+        android:text="Or show all hotel available"
+        android:textColor="#FFFBFB"
+        app:backgroundTint="#E64A19"
+        app:layout_constraintBottom_toTopOf="@+id/btnConfirmHotel"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <DatePicker
+        android:id="@+id/dialog_date_picker"
+        android:layout_width="360dp"
+        android:layout_height="422dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:background="@color/white"
+        android:calendarViewShown="false"
+        android:headerBackground="@android:color/holo_red_dark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.517"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/spinnerHotel"
+        android:layout_width="113dp"
+        android:layout_height="47dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="36dp"
+        android:background="#E23C0D0D"
+        android:fontFamily="serif"
+        android:textColor="#FFFBFB"
+        app:backgroundTint="#E64A19"
+        app:layout_constraintStart_toEndOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/dialog_date_picker" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="210dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+
+        android:layout_marginTop="48dp"
+        android:textSize="18sp"
+        android:text="Please Choose District"
+        android:fontFamily="serif"
+        android:textColor="#FFFBFB"
+        android:textStyle="bold"
+        app:backgroundTint="#E64A19"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dialog_date_picker" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

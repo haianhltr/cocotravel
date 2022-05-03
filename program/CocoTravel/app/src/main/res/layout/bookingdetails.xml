@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/txtFlightNameCus1"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:background="@drawable/ivorybackground">
+
+    <TextView
+        android:id="@+id/txtFlightNameCus1"
+        android:layout_width="71dp"
+        android:layout_height="24dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="serif"
+        android:text="Name:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtFlightContactInfo" />
+
+    <TextView
+        android:id="@+id/txtFlightDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="52dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="serif"
+        android:text="Flight Details"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtFlightEmaiCus1" />
+
+    <TextView
+        android:id="@+id/txtFlightContactInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="52dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="64dp"
+        android:fontFamily="serif"
+        android:text="Contact Information"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtFlightDepDate2"
+        android:layout_width="118dp"
+        android:layout_height="24dp"
+        android:layout_marginLeft="172dp"
+        android:layout_marginStart="172dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="serif"
+        android:text="No Information"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtFlightDetails" />
+
+    <TextView
+        android:id="@+id/txtFlightDepar2"
+        android:layout_width="110dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="serif"
+        android:text="No Information"
+        app:layout_constraintStart_toEndOf="@+id/txtFlightDepar1"
+        app:layout_constraintTop_toBottomOf="@+id/txtFlightDepDate2" />
+
+    <TextView
+        android:id="@+id/txtFlightDes2"
+        android:layout_width="133dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="serif"
+        android:text="No Information"
+        app:layout_constraintStart_toEndOf="@+id/txtFlightDes1"
+        app:layout_constraintTop_toBottomOf="@+id/txtFlightDepar2" />
+
+    <TextView
+        android:id="@+id/txtFlightSaleDate2"
+        android:layout_width="117dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="serif"
+        android:text="No Information"
+        app:layout_constraintStart_toEndOf="@+id/txtFlightSaleDate1"
+        app:layout_constraintTop_toBottomOf="@+id/txtFlightDes2" />
+
+    <TextView
+        android:id="@+id/txtFlightEmaiCus1"
+        android:layout_width="71dp"
+        android:layout_height="24dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="serif"
+        android:text="Email:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtFlightNameCus1" />
+
+    <TextView
+        android:id="@+id/txtFlightNameCus2"
+        android:layout_width="200dp"
+        android:layout_height="24dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="serif"
+        android:text="No Information"
+        app:layout_constraintStart_toEndOf="@+id/txtFlightNameCus1"
+        app:layout_constraintTop_toBottomOf="@+id/txtFlightContactInfo" />
+
+    <TextView
+        android:id="@+id/txtFlightEmaiCus2"
+        android:layout_width="200dp"
+        android:layout_height="24dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="serif"
+        android:text="No Information"
+        app:layout_constraintStart_toEndOf="@+id/txtFlightEmaiCus1"
+        app:layout_constraintTop_toBottomOf="@+id/txtFlightNameCus2" />
+
+    <TextView
+        android:id="@+id/txtFlightDepDate1"
+        android:layout_width="110dp"
+        android:layout_height="24dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="serif"
+        android:text="Departure Date: "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtFlightDetails" />
+
+    <TextView
+        android:id="@+id/txtFlightDepar1"
+        android:layout_width="110dp"
+        android:layout_height="24dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="serif"
+        android:text="Departure: "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtFlightDepDate1" />
+
+    <TextView
+        android:id="@+id/txtFlightDes1"
+        android:layout_width="110dp"
+        android:layout_height="24dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="serif"
+        android:text="Destination: "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtFlightDepar1" />
+
+    <TextView
+        android:id="@+id/txtFlightSaleDate1"
+        android:layout_width="110dp"
+        android:layout_height="24dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="serif"
+        android:text="Book On: "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtFlightDes1" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/flightbackground">
+
+    <Button
+        android:id="@+id/btnConfirmHotel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp"
+        android:layout_marginLeft="164dp"
+        android:layout_marginStart="164dp"
+        android:layout_marginTop="12dp"
+
+        android:text="Confirm"
+        android:fontFamily="serif"
+        android:textColor="#FFFBFB"
+        app:backgroundTint="#E64A19"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnShowAllHotel" />
+
+    <Button
+        android:id="@+id/btnShowAllHotel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="26dp"
+
+        android:text="Show All Flights"
+        android:fontFamily="serif"
+        android:textColor="#FFFBFB"
+        app:backgroundTint="#E64A19"
+        app:layout_constraintBottom_toTopOf="@+id/btnConfirmHotel"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtEnterPerson"
+        app:layout_constraintVertical_bias="0.076" />
+
+    <DatePicker
+        android:id="@+id/dialog_date_picker"
+        android:layout_width="341dp"
+        android:layout_height="413dp"
+        android:layout_marginBottom="270dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="48dp"
+        android:background="#658ED5"
+        android:calendarViewShown="false"
+        android:headerBackground="@android:color/holo_red_dark"
+        android:fontFamily="serif"
+        android:textColor="#FFFBFB"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txtEnterPerson"
+        android:layout_width="271dp"
+        android:layout_height="44dp"
+        android:layout_marginLeft="68dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:fontFamily="serif"
+        android:inputType="textPersonName"
+        android:text="Please enter your departure"
+        android:textColor="#FFFBFB"
+        app:backgroundTint="#E64A19"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dialog_date_picker" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

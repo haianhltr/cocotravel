@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_dashboard"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/landmark2"
+    android:padding="5dp"
+    tools:context=".LoginAndRegister.GetDetails.DashboardActivity">
+
+    <Button
+        android:id="@+id/btnStartTrip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/EmailShow"
+        android:layout_marginTop="50dp"
+
+        android:text="Start Your Trip Today"
+        android:background="#5A4747"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        app:backgroundTint="#CC2A2A" />
+
+    <Button
+        android:id="@+id/btnViewFlight"
+        android:layout_width="406dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnStartTrip"
+        android:layout_marginTop="36dp"
+        android:background="#5A4747"
+        android:fontFamily="serif"
+        android:text="View Your Flight Booking Details
+"
+        android:textStyle="bold"
+        app:backgroundTint="#CC2A2A" />
+
+
+    <Button
+        android:id="@+id/btnViewHotel"
+        android:layout_width="406dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnStartTrip"
+        android:layout_marginTop="113dp"
+        android:background="#5A4747"
+        android:fontFamily="serif"
+        android:text="View Your Hotel Booking Details"
+        android:textStyle="bold"
+        app:backgroundTint="#CC2A2A" />
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/EmailShow"
+        android:layout_marginTop="282dp"
+        android:background="#5A4747"
+        android:fontFamily="serif"
+        android:text="Logout"
+        android:textStyle="bold"
+        app:backgroundTint="#CC2A2A" />
+
+    <TextView
+        android:id="@+id/EmailShow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text=""
+        android:textColor="#ffffff"
+        android:textSize="30dp" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="112dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:gravity="center"
+        android:text="Welcome To CocoTravel"
+        android:textColor="#ffffff"
+        android:textSize="30dp" />
+
+</RelativeLayout>

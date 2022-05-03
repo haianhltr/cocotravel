@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.testing">
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.Internet"/>
+    <application
+
+        android:allowBackup="true"
+    android:configChanges="keyboardHidden|orientation"
+        android:icon="@mipmap/ic_launcher"
+        android:label="CocoTravel"
+
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
+        android:theme="@style/Theme.Testing">
+        <activity android:name=".LoginAndRegister.Signup">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" /> <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter> </activity>
+
+        <activity android:name=".Flight.FlightPickingMenu.FlightPicking"> </activity>
+
+        <activity android:name=".Flight.FlightListShowing.FlightList"> </activity>
+        <activity android:name=".Flight.SpecificFlight.FlightActivity"> </activity>
+        <activity android:name=".FamousPlace.PlaceList.PageList"> </activity>
+        <activity android:name=".LoginAndRegister.Login"> </activity>
+        <activity android:name=".others.otherspicking.OthersPickList"> </activity>
+        <activity android:name=".Restaurant.RestaurantList.RestaurantList"> </activity>
+
+        <activity android:name=".others.otherslist.OthersList"> </activity>
+        <activity android:name=".BookingDetails.BookingDetails"> </activity>
+        <activity android:name=".Hotel.HotelPickingMenu.HotelPicking"> </activity>
+        <activity android:name=".BookingDetails.BookHotel"> </activity>
+        <activity android:name=".StartingMenu.City"> </activity>
+        <activity android:name=".Hotel.SpecificHotel.HotelActivity"> </activity>
+
+        <activity android:name=".StartingMenu.PickCity"> </activity>
+        <activity android:name=".Restaurant.Top10.Top10Food"> </activity>
+        <activity android:name=".Restaurant.Menu.DiningMenu"> </activity>
+        <activity android:name=".FamousPlace.PlacePickerMenu.PlacePicker"> </activity>
+        <activity android:name=".Hotel.HotelListShowing.HotelListScroll"> </activity>
+        <activity android:name=".LoginAndRegister.GetDetails.DashboardActivity"> </activity>
+
+        <uses-library android:name="org.apache.http.legacy" android:required="false" />
+    </application>
+
+</manifest>

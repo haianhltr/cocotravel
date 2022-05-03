@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="30dp">
+
+
+    <TextView
+        android:id="@+id/txtDiningName"
+
+        android:layout_width="wrap_content"
+        android:layout_height="51dp"
+        android:fontFamily="serif"
+        android:text="Pho Ong Hung"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtDiningAdd"
+        android:layout_width="346dp"
+        android:layout_height="68dp"
+        android:fontFamily="serif"
+        android:text="Address"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtDiningCountry"
+        android:layout_width="352dp"
+        android:layout_height="46dp"
+        android:fontFamily="serif"
+        android:text="Country:"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtDiningType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="Type"
+
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="351dp"
+        android:layout_height="40dp" />
+
+    <ImageView
+        android:id="@+id/imgDining"
+
+
+        android:layout_width="378dp"
+        android:layout_height="238dp" />
+
+</LinearLayout>
